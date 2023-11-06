@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Sorting Algorithm Visualizer</h1>
+    <div class="controls">
+        <button id="generateArray">Generate Random Array</button>
+        <select id="algorithm">
+            <option value="bubbleSort">Bubble Sort (Bar Graph)</option>
+            <option value="mergeSort">Merge Sort (Tree Structure)</option>
+            <option value="quickSort">Quick Sort (Tree Structure)</option>
+        </select>
+        <button id="startSorting">Start Sorting</button>
+    </div>
+    <div class="array-container" id="arrayContainer">
+        <!-- Bar graph or tree elements will be displayed here -->
+    </div>
+    <div class="tree-container" id="treeContainer">
+        <!-- Tree elements will be displayed here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

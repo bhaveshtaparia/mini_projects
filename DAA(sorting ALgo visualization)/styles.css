@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+/* Style the title */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Style the container for controls and array */
+.controls {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Style buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+/* Style the array container */
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+    height: 300px;
+    overflow: visible;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style array bars */
+.bar {
+    background-color: #0074d9;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin: 0 1px;
+    height: 100px;
+    width: 20px;
+    position: relative;
+    transition: height 0.3s ease;
+}
+
+/* Style highlighted bars */
+.bar.highlighted {
+    background-color: #FF4136; /* Red color for highlighting */
+}
+
+/* Style comparing bars */
+.bar.comparing {
+    background-color: #FFDC00; /* Yellow color for comparing elements */
+}
+
+/* Highlight the selected algorithm in the dropdown */
+#algorithm {
+    background-color: #fff;
+}
+/* Style the tree nodes */
+.tree-node {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #fff;
+}
